@@ -26,7 +26,3 @@ data Activity
   | Walk Int
 
 
-rateActivity :: Activity -> Approval
-rateActivity activity 
-    | activity == Boardgame = "No"
-    | activity == Chill 

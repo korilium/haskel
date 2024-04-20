@@ -45,8 +45,11 @@ gives you a step by step guide on the process of the input to output journey of 
  
 -- Question 5
 -- Are there any functions in Haskell that let you transform one type to the other? Try googling for the answer.
-
+ {- 
+    yes fromIntgreal for example
+ -}
 
 -- Question 6
 -- Can you also define in Haskell list of lists? Did we showed any example of that? How would you access the inner
 -- most elements?
+{- yes you can do it using the operator !! to access elements of an element in a list  -}

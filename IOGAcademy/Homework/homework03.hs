@@ -68,7 +68,3 @@ belowOne' a b
 -- of those numbers. Write the function such that you use a where block inside a let expression and a
 -- let expression inside a where block. 
 
-square a b = 
-  let prod a b = a * b 
-      quot a b = a /b 
-      in 
