@@ -68,3 +68,21 @@ belowOne' a b
 -- of those numbers. Write the function such that you use a where block inside a let expression and a
 -- let expression inside a where block. 
 
+sumOfSquares x y = 
+  let 
+    s = x' * y 
+    p = x' / y 
+  in (s + p)^2
+    where 
+      x' = x + 1 
+      y' = y + 1  
+
+sumOfSquares' x y = (s + p )^2
+  where
+    s  = x' * y 
+    p = x' / y  
+    x' = let newX = x + 2 
+      in newX 
+  
+
+

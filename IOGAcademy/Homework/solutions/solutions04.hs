@@ -28,7 +28,7 @@ remove3' list = case list of
 -- Question 3
 -- Create a function that takes a 3-element tuple (all of type Integer) and adds them together
 
-add3 (Integer, Integer, Integer) -> Integer
+add3:: (Integer, Integer, Integer) -> Integer
 add3 (x, y, z) = x + y + z
 
 -- Question 4
